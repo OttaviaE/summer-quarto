@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "summer-quarto",
+    "title": "ARCA summer school on quarto",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Mettere l’abstract\nSe per caso metto i pdf (non penso) mettere i link ai pdf"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,33 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section",
+    "href": "slides/00-Hello/00-Hello.html#section",
+    "title": "00-Hello",
+    "section": "",
+    "text": "R Markdown, next generation\nAll based on knitr"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#what-is-it",
+    "href": "slides/00-Hello/00-Hello.html#what-is-it",
+    "title": "00-Hello",
+    "section": "What is it?",
+    "text": "What is it?\n\nR Markdown, next generation\n\nAll based on knitr to execute R code\n\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto."
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html",
+    "href": "slides/00-Hello/00-Hello.html",
+    "title": "00-Hello",
+    "section": "",
+    "text": "R Markdown, next generation\n\nAll based on knitr to execute R code\n. . .\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto."
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#r-markdown",
+    "href": "slides/00-Hello/00-Hello.html#r-markdown",
+    "title": "00-Hello",
+    "section": "R Markdown",
+    "text": "R Markdown\n\nmarkdown è un markup languange, ossia un linguaggio di programmazione dove la formattazione è gestita da pezzi di codice (“tags”).\nL’estensione dei markdown è un file .md\n\n\nSono disponibili diversi software per redigere documenti in .md:"
   }
 ]

@@ -1,11 +1,8 @@
 ---
-title: "summer-quarto"
+title: "ARCA summer school on quarto"
 ---
 
-This is a Quarto website.
+Mettere l'abstract
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+Se per caso metto i pdf (non penso) mettere i link ai pdf

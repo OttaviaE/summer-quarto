@@ -1,0 +1,48 @@
+---
+title: "00-Hello"
+author: "Ottavia M. Epifania"
+format: 
+  revealjs: 
+    theme: mytheme.scss
+    # logo: "www/psicostat.jpg"
+    footer: "The ARCA initiative summer school"
+    transition: none
+    transition-speed: slow
+    background-transition: fade
+    slide-number: true
+    show-slide-number: print
+stand-alone: true
+---
+
+# Quarto 
+
+## What is it?
+
+<br>
+
+
+[R Markdown](https://rmarkdown.rstudio.com/), next generation
+
+<br>
+
+
+All based on [knitr](https://cran.r-project.org/web/packages/knitr/index.html) to execute R code
+
+. . . 
+
+> Analyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto.
+
+## R Markdown
+
+<div>
+
+`markdown` è un markup languange, ossia un linguaggio di programmazione dove la formattazione è gestita da pezzi di codice ("tags"). 
+
+L'estensione dei `markdown` è un file `.md`
+
+</div>
+
+<div>
+Sono disponibili diversi software per redigere documenti in `.md`:
+</div>
+
