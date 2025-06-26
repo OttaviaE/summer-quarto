@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#what-is-it",
+    "href": "slides/00-Hello/00-Hello.html#what-is-it",
+    "title": "00-Hello",
+    "section": "What is it?",
+    "text": "What is it?\n\nR Markdown, next generation\n\nAll based on knitr to execute R code\n\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto."
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#r-markdown",
+    "href": "slides/00-Hello/00-Hello.html#r-markdown",
+    "title": "00-Hello",
+    "section": "R Markdown",
+    "text": "R Markdown\nmarkdown is a markup languange: Programming language where formatting is handled by chunk codes, tags\n\nmarkdown: .md\nR Markdown: .Rmd\nquarto: .qmd"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ARCA summer school on quarto",
+    "section": "",
+    "text": "Mettere l’abstract\nSe per caso metto i pdf (non penso) mettere i link ai pdf"
+  }
+]
