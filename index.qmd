@@ -38,13 +38,13 @@ All course materials are freely available on this website:
 
 - [00-Hello](slides/00-Hello/00-Hello.qmd) Let's get all set [download source](slides/00-Hello/00-Hello.qmd)
 
-- [01-Baby steps](slides/01-Baby-steps/01-Baby-steps.html) Formatting with markdwon, integration with github pages & layout [download source](slides/01-Baby-steps/01-Baby-steps.qmd)
+- [01-Baby steps](slides/01-Baby-steps/01-Baby-steps.qmd) Formatting with markdwon, integration with github pages & layout [download source](slides/01-Baby-steps/01-Baby-steps.qmd)
 
-- [02-Code chunks](slides/02-Code-chunk/02-Code-chunk.html) How to control the executable code [download source](slides/02-Code-chunk/02-Code-chunk.qmd)
+- [02-Code chunks](slides/02-Code-chunk/02-Code-chunk.qmd) How to control the executable code [download source](slides/02-Code-chunk/02-Code-chunk.qmd)
 
 <!-- - [03-Presentations](slides/03-Presentation/03-Presentation.html) Interactive presentations [download source](slides/03-Presentation/03-Presentation.qmd) -->
 
-- [04-PDF](slides/04-PDF/04-PDF.pdf) with LaTeX [download source](slides/04-PDF/04-PDF.qmd)
+- [04-PDF](slides/04-PDF/04-PDF.qmd) with LaTeX [download source](slides/04-PDF/04-PDF.qmd)
 
 
 Here you can download the [dataset](data/dataset.csv) that we are going to use throughout the course, while [here](my-first-quarto-document.qmd) the file for checking whether everything works. 

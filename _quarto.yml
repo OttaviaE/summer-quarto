@@ -13,6 +13,9 @@ website:
         href: index.qmd
       - text: "Slides"
         href: slide.qmd
+        menu:
+         - talks.qmd
+         - about.qmd 
 
 format:
   html:
