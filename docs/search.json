@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#what-is-it",
+    "href": "slides/00-Hello/00-Hello.html#what-is-it",
+    "title": "00-Hello",
+    "section": "What is it?",
+    "text": "What is it?\n\nR Markdown, next generation\n\nAll based on knitr to execute R code\n\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto.\n\n\n\nIn this course: RStudio!\nDownload R: https://cran.r-project.org/bin/windows/base/\nDownload RStudio: https://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#r-markdown",
+    "href": "slides/00-Hello/00-Hello.html#r-markdown",
+    "title": "00-Hello",
+    "section": "R Markdown",
+    "text": "R Markdown\nmarkdown is a markup languange: Programming language where formatting is handled by chunk codes, tags\n\n\n\n\nFormat\nExtension\n\n\n\n\nMarkdown\n.md\n\n\nR Markdown\n.Rmd\n\n\nQuarto\n.qmd"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#markup-languages",
+    "href": "slides/00-Hello/00-Hello.html#markup-languages",
+    "title": "00-Hello",
+    "section": "markup languages",
+    "text": "markup languages\n\nHTMLLaTeX\n\n\n\nknitr::include_graphics(\"img/html-example.png\")\n\n\n\n\nHTML editor\n\n\n\n\n\n\n\nknitr::include_graphics(\"img/latex.png\")\n\n\n\n\nLaTex Editor"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#wysiwyg-languages",
+    "href": "slides/00-Hello/00-Hello.html#wysiwyg-languages",
+    "title": "00-Hello",
+    "section": "WYSIWYG languages",
+    "text": "WYSIWYG languages\nWhat You See Is What You Get\nThe text is modified with built-in command, you can see immediately the changes:\n\nknitr::include_graphics(\"img/word.png\")\n\n\nWord"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#why",
+    "href": "slides/00-Hello/00-Hello.html#why",
+    "title": "00-Hello",
+    "section": "Why?",
+    "text": "Why?\nUsing knitr, it allows for integrating analyses, text, and graphs in a single document:\n\nReplicability\nTydiness\nConvenience\n\nCreate dynamic content with Python, R, Julia, and Observable"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#an-example",
+    "href": "slides/00-Hello/00-Hello.html#an-example",
+    "title": "00-Hello",
+    "section": "An example",
+    "text": "An example\n\n\n\n\n\n\n\n\n\n\n\n\n\nBut you are asked to change the ggplot theme!\nUsing a WYSIWYG:\n\nRe-open R\nFind the data again\nRe-run the analysis\nPlot the results with the requested changes\nSave the plot\nImport the plot in the document\n\n\n\nHere.. just add + theme_light() to the code and render it again"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#be-tidy-rstudio-project",
+    "href": "slides/00-Hello/00-Hello.html#be-tidy-rstudio-project",
+    "title": "00-Hello",
+    "section": "Be tidy: Rstudio Project",
+    "text": "Be tidy: Rstudio Project\nCreate a directory that can be re-organized in subdirectories, allowing for a conveninet managment of all the files (data, images, bibliography)\nFile \\(\\rightarrow\\) New project:\n\nknitr::include_graphics(\"img/project1.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section",
+    "href": "slides/00-Hello/00-Hello.html#section",
+    "title": "00-Hello",
+    "section": "",
+    "text": "graph = ggplot(rock, \n         aes(x = peri, \n             y = perm, size = area)) + \n  geom_point() + theme_light()\ngraph"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section-1",
+    "href": "slides/00-Hello/00-Hello.html#section-1",
+    "title": "00-Hello",
+    "section": "",
+    "text": "graph = ggplot(rock, \n         aes(x = peri, \n             y = perm, size = area)) + \n  geom_point() + theme_light()\nlibrary(plotly)\nggplotly(graph)"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#create-an-account",
+    "href": "slides/00-Hello/00-Hello.html#create-an-account",
+    "title": "00-Hello",
+    "section": "Create an account",
+    "text": "Create an account\n\n\n\nknitr::include_graphics(\"img/ghMail.png\")\n\n\n\n\n\n\n\n\n\n\n\nknitr::include_graphics(\"img/ghMail1.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#username-and-password",
+    "href": "slides/00-Hello/00-Hello.html#username-and-password",
+    "title": "00-Hello",
+    "section": "Username and password",
+    "text": "Username and password\nPlease, choose something that you can remember\n\n\nknitr::include_graphics(\"img/ghMailpwd.png\")\n\n\nSolve the CAPTCHA and submit"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#github-desktop",
+    "href": "slides/00-Hello/00-Hello.html#github-desktop",
+    "title": "00-Hello",
+    "section": "GitHub Desktop",
+    "text": "GitHub Desktop\nhttps://desktop.github.com/\n\n\nknitr::include_graphics(\"img/ghDesk.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#installare-git",
+    "href": "slides/00-Hello/00-Hello.html#installare-git",
+    "title": "00-Hello",
+    "section": "Installare Git",
+    "text": "Installare Git\nGitHub desktop allows for an “inderect” connection between RStudio and GitHub\nGit allows for a direct connection between RStudio and GitHub\nJust follow the default installation\n\nIf it worked:"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#clone-an-existing-repository-i",
+    "href": "slides/00-Hello/00-Hello.html#clone-an-existing-repository-i",
+    "title": "00-Hello",
+    "section": "“Clone” an existing repository I",
+    "text": "“Clone” an existing repository I\nFrom GitHub desktop:\nAdd Local Repository \\(\\rightarrow\\) search for the directory of the R project to publish on GitHub\n\nknitr::include_graphics(\"img/banner-git.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#clone-an-existing-repository-ii",
+    "href": "slides/00-Hello/00-Hello.html#clone-an-existing-repository-ii",
+    "title": "00-Hello",
+    "section": "“Clone” an existing repository II",
+    "text": "“Clone” an existing repository II\nOption: create a repository\n\nknitr::include_graphics(\"img/clone-repo.png\")\n\n\nFlag the option “Initialize the repository with a README"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#did-it-work",
+    "href": "slides/00-Hello/00-Hello.html#did-it-work",
+    "title": "00-Hello",
+    "section": "Did it work?",
+    "text": "Did it work?\nNavigate to you GitHub profile on https://github.com/ and to your repositories:\n\nknitr::include_graphics(\"img/myGit.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#the-repository-must-be-public",
+    "href": "slides/00-Hello/00-Hello.html#the-repository-must-be-public",
+    "title": "00-Hello",
+    "section": "The repository must be public",
+    "text": "The repository must be public\n\nknitr::include_graphics(\"img/public.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#your-turn",
+    "href": "slides/00-Hello/00-Hello.html#your-turn",
+    "title": "00-Hello",
+    "section": "Your turn!",
+    "text": "Your turn!\n\nCreate a default R project for this course\nCreate a GitHub account (and install Git and GitHub desktop)\nAdd the project you have created for this course to your GitHub account\nCheck whether the repository is available online and make it public\nPlace the dataset in a subfolder named data\n\n\n\nFinal check: Download the file from the course website, open it in your newly created project and:\n\nknitr::include_graphics(\"img/render.png\")"
+  },
+  {
+    "objectID": "my-first-quarto-document.html",
+    "href": "my-first-quarto-document.html",
+    "title": "My very first quarto document",
+    "section": "",
+    "text": "This is your very first quarto document\n\n\nYou can organize it in sections"
+  },
+  {
+    "objectID": "my-first-quarto-document.html#a-section",
+    "href": "my-first-quarto-document.html#a-section",
+    "title": "My very first quarto document",
+    "section": "",
+    "text": "You can organize it in sections"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reporting using quarto",
+    "section": "",
+    "text": "Reproducible reports integrate the code used for data analysis with the document that presents the findings, this enabling a continuous flow between the analytical process and its interpretation.\nWhile RMarkdown undoubtedly opened the way to this process, quarto represents the next generation, as it is even easier to use than RMarkdown and includes new features, making the reporting process more accessible.\nThis course provides an introduction to quarto and its basic features, along with a presentation on how to exploit it functionalities to create polished, professional outputs with embedded code chunks.\nSome of the topics covered within this seminar are:\n\nExecutable code chunks\nTables & charts\nReports and papers\nPresentations & so much more\n\n\n\nAll course materials are freely available on this website:\n\n00-Hello Let’s get all set download source\n01-Baby steps Formatting with markdwon, integration with github pages & layout download source\n02-Code chunks How to control the executable code download source\n\n\n\n04-PDF with LaTeX download source\n\nHere you can download the dataset that we are going to use throughout the course, while here the file for checking whether everything works.\nThe source GitHub repository is available here.\n\n\n\n\nDocument example download .qmd\nHTML presentation example download .qmd\nPDF presentation example download .qmd\nBasic theme download .scss\nBibliography (it is needed for compiling the example document) dowload .bib"
+  },
+  {
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "Reporting using quarto",
+    "section": "",
+    "text": "All course materials are freely available on this website:\n\n00-Hello Let’s get all set download source\n01-Baby steps Formatting with markdwon, integration with github pages & layout download source\n02-Code chunks How to control the executable code download source\n\n\n\n04-PDF with LaTeX download source\n\nHere you can download the dataset that we are going to use throughout the course, while here the file for checking whether everything works.\nThe source GitHub repository is available here."
+  },
+  {
+    "objectID": "index.html#other-files",
+    "href": "index.html#other-files",
+    "title": "Reporting using quarto",
+    "section": "",
+    "text": "Document example download .qmd\nHTML presentation example download .qmd\nPDF presentation example download .qmd\nBasic theme download .scss\nBibliography (it is needed for compiling the example document) dowload .bib"
+  },
+  {
+    "objectID": "index.html#locations",
+    "href": "index.html#locations",
+    "title": "Reporting using quarto",
+    "section": "Locations",
+    "text": "Locations\nLectures will be at the Department of Statistical Sciences in via Cesare Battisti 241 Padova, (https://maps.app.goo.gl/JMCthS2eZqWJEnmx8), in room SC20.\n\n\n\n\n\n\nLunch will be served at the University Mensa RistorEsu Nord Piovego in Viale Giuseppe Colombo 1, Padova https://maps.app.goo.gl/Y8ta2wHzbsdn2cMF8"
+  },
+  {
+    "objectID": "index.html#time-schedule",
+    "href": "index.html#time-schedule",
+    "title": "Reporting using quarto",
+    "section": "Time schedule",
+    "text": "Time schedule\nTHERE HAS BEEN A CHANGE IN THE PROGRAM ON FRIDAY, 25TH\nOn Friday 25th, the quarto lesson will be in the morning session, while the R lesson will be in the afternoon session\n\nMONDAY, JULY 21\n9:00 am - 9:30 am: check in 9:30 am - 12:30 pm: Dr. Angela Andreella\nLunch break 12:30 pm - 2:30 pm at RistorEsu Nord Piovego\n2:30 pm - 5:30 pm: Dr. Ottavia M. Epifania\n\n\nTUESDAY, JULY 22\n9:00 am - 12:30 pm: Dr. Angela Andreella\nLunch break 12:30 pm - 2:00 pm at RistorEsu Nord Piovego\n2:00 pm - 5:00 pm: Dr. Ottavia M. Epifania\n6:00 pm - 7:00 pm: Guided tour at Orto Botanico\n\n\nWEDNESDAY, JULY 23\n9:00 am - 12:30 pm: Dr. Angela Andreella\nLunch break 12:30 pm - 2:00 pm at RistorEsu Nord Piovego\n2:00 pm - 5:30 pm: Dr. Ottavia M. Epifania\nSocial Dinner 8:00 pm at Ristorante “Agli Eremitani”\n\n\nTHURSDAY, JULY 24\n9:00 am - 12:30 pm: Dr. Angela Andreella\nLunch break 12:30 pm - 2:00 pm at RistorEsu Nord Piovego\n2:00 pm - 5:30 pm: Dr. Ottavia M. Epifania\n\n\nFRIDAY, JULY 25 Changed schedule\n9:00 am - 12:00 pm: Dr. Ottavia M. Epifania\nLunch break 12:00 pm -1:30 pm at RistorEsu Nord Piovego\n1:30 pm - 5:00 pm: Dr. Angela Andreella"
+  },
+  {
+    "objectID": "index.html#further-activities",
+    "href": "index.html#further-activities",
+    "title": "Reporting using quarto",
+    "section": "Further activities",
+    "text": "Further activities\nVisit to the Botanical Garden on Tuesday night, 6:00pm-7:00pm\nSocial dinner on Wednesday night at Ristorante Agli Eremitani, 8:00pm"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html",
+    "href": "slides/04-PDF/04-PDF.html",
+    "title": "04-PDF",
+    "section": "",
+    "text": "To compile PDF files (presentations or documents), you need an installation of \n\n\n\n\n\n\nEasy mode\n\n\n\nTinyTex\nIt’s convenient because it is easy to use, but it does not offer all the functionalities of \n\n\n\n\n\n\n\n\nPro mode\n\n\n\nMikTex\nIt’s a pain in the neck but it’s convenient in the long run\n\n\n. . .\nFor this course, we can use TinyTex\n\n\n\nBasics commands of might work in quarto as well (when compiled in PDF)\nQuarto allows for using without knowing how it works (i.e., by using the same tags used for html files)\nPDFs do not offer interactivity, but they do look professional\nImportantly, PDFs are stable\n\n\n\n\n\n\n---\ntitle: \"I can use LaTeX\"\nauthor: \"Jane Doe\"\nformat: beamer\n---\n\n## New Slide\n\n- First element\n- Second element\n\n## Another slide\n\nSome text in my slide! Yay!\n\n\n\n\n\n---\n[...]\nformat:\n  beamer:\n    slide-level: 2\n---\n\n# This create a section page\n\n## This create a slide\n\n- First element\n- Second element\n\n# New section"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#install-the-pdf-engine",
+    "href": "slides/04-PDF/04-PDF.html#install-the-pdf-engine",
+    "title": "04-PDF",
+    "section": "",
+    "text": "To compile PDF files (presentations or documents), you need an installation of \n\n\n\n\n\n\nEasy mode\n\n\n\nTinyTex\nIt’s convenient because it is easy to use, but it does not offer all the functionalities of \n\n\n\n\n\n\n\n\nPro mode\n\n\n\nMikTex\nIt’s a pain in the neck but it’s convenient in the long run\n\n\n. . .\nFor this course, we can use TinyTex\n\n\n\nBasics commands of might work in quarto as well (when compiled in PDF)\nQuarto allows for using without knowing how it works (i.e., by using the same tags used for html files)\nPDFs do not offer interactivity, but they do look professional\nImportantly, PDFs are stable"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#yaml-basics",
+    "href": "slides/04-PDF/04-PDF.html#yaml-basics",
+    "title": "04-PDF",
+    "section": "",
+    "text": "---\ntitle: \"I can use LaTeX\"\nauthor: \"Jane Doe\"\nformat: beamer\n---\n\n## New Slide\n\n- First element\n- Second element\n\n## Another slide\n\nSome text in my slide! Yay!\n\n\n\n\n\n---\n[...]\nformat:\n  beamer:\n    slide-level: 2\n---\n\n# This create a section page\n\n## This create a slide\n\n- First element\n- Second element\n\n# New section"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#themes",
+    "href": "slides/04-PDF/04-PDF.html#themes",
+    "title": "04-PDF",
+    "section": "Themes",
+    "text": "Themes\n\n\n[...]\nformat:\n  beamer:\n    slide-level: 3\n    theme: Montpellier\n    colortheme: dove\nGallery of beamer themes & colortheme"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#header-includes",
+    "href": "slides/04-PDF/04-PDF.html#header-includes",
+    "title": "04-PDF",
+    "section": "header-includes:",
+    "text": "header-includes:\n\n\nFurther customization through pure :\n[...]\nheader-includes: \n   - \\usepackage{graphicx}\n   - \\usepackage[english]{babel}\n   - \\usepackage{xcolor}\n   - \\AtBeginDocument{\\author[Ottavia M. Epifania]{Ottavia M. Epifania \\\\ University of Trento \\\\\\texttt{ottavia.epifania@unitn.it}}}\n   - \\AtBeginDocument{\\institute[]{ARCA Summer School} }\n   - \\setbeamertemplate{logo}{\\includegraphics[width=0.7cm]{img/freepalestine.jpg}}"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#layout-font",
+    "href": "slides/04-PDF/04-PDF.html#layout-font",
+    "title": "04-PDF",
+    "section": "Layout & font",
+    "text": "Layout & font\n\nColumns\nThe same code seen so far:\n:::: {.columns}\n\n::: {.column width=\"40%\"}\ncontents...\n:::\n\n::: {.column width=\"60%\"}\ncontents...\n:::\n\n::::\n\n\nText size\n\n\n\\Large Large\n\\large large\n\\normalsize normal\n\\small small\n\\footnotesize footnotesize\n\\scriptsize script\n\\tiny very tiny\n\nLarge\nlarge\nnormal\nsmall\nfootnotesize\nscript\nvery tiny"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#code-chunk",
+    "href": "slides/04-PDF/04-PDF.html#code-chunk",
+    "title": "04-PDF",
+    "section": "Code Chunk",
+    "text": "Code Chunk\n\n\nsame as before! Of course it cannot be interactive.\n\n```{r}\n#| eval: true\n3*2\n```\n\n[1] 6"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#code-annotation",
+    "href": "slides/04-PDF/04-PDF.html#code-annotation",
+    "title": "04-PDF",
+    "section": "Code annotation",
+    "text": "Code annotation\n\n\n\nlibrary(tidyverse)\n1mtcars %&gt;%\n2  ggplot( aes(mpg, hp, size = gear)) +\n3  geom_point() +\n4  geom_smooth(method = \"lm\")\n\n\n1\n\nDo something\n\n2\n\nDo something else\n\n3\n\nAnd else\n\n4\n\nWhatever\n\n\n\n\nIn the code: # &lt;1&gt;, # &lt;2&gt; etc\nIn the YAML\n[...]\ncode-annotations: below"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#external-figures",
+    "href": "slides/04-PDF/04-PDF.html#external-figures",
+    "title": "04-PDF",
+    "section": "External Figures",
+    "text": "External Figures\n\n\nThere’s a peacock in Figure 1\n\n```{r}\n#| out-width: 70%\n#| fig-align: center\n#| fig-cap: \"A peacock\"\n#| label: fig-pea\n\nknitr::include_graphics(\"img/peacock.png\")\n```\n\n\n\n\n\n\n\nFigure 1: A peacock\n\n\n\n\n\n\n\n\nThere's a peacock in @fig-pea1\n\n```{r}\n#| eval: false\n#| out-width: 70%\n#| fig-align: center\n#| fig-cap: \"A peacock\"\n#| label: fig-pea1\n\nknitr::include_graphics(\"img/peacock.png\")\n```"
+  },
+  {
+    "objectID": "slides/04-PDF/04-PDF.html#plots",
+    "href": "slides/04-PDF/04-PDF.html#plots",
+    "title": "04-PDF",
+    "section": "Plots",
+    "text": "Plots\n\n\nA kickass plot in Figure 2\n\n```{r}\n#| out-width: 70%\n#| fig-align: center\n#| fig-cap: \"What a plot\"\n#| label: fig-plot\n#| \nggplot(mtcars, aes(hp, mpg, color = factor(am))) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n```\n\n\n\n\n\n\n\nFigure 2: What a plot\n\n\n\n\n\n\n\n\nA kickass plot in @fig-plot1\n\n```{r}\n#| eval: false\n#| out-width: 70%\n#| fig-align: center\n#| fig-cap: \"What a plot\"\n#| label: fig-plot1\n#| \nggplot(mtcars, aes(hp, mpg, color = factor(am))) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"loess\") +\n  theme(legend.position = 'bottom')\n```"
+  },
+  {
+    "objectID": "slide.html",
+    "href": "slide.html",
+    "title": "Summer Quarto",
+    "section": "",
+    "text": "All course materials are freely available on this website:\n\n00-Hello Let’s get all set download source\n01-Baby steps Formatting with markdwon, integration with github pages & layout download source\n02-Code chunks How to control the executable code download source\n\n\n\n04-PDF with LaTeX download source"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#course-material",
+    "href": "slides/00-Hello/00-Hello.html#course-material",
+    "title": "00-Hello",
+    "section": "Course material",
+    "text": "Course material\n\nAll course material is available on GitHub:\n\n\nhttps://arca-dpss.github.io/quarto-school/"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#schedule",
+    "href": "slides/00-Hello/00-Hello.html#schedule",
+    "title": "00-Hello",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\nDate\nTime\nRoom\n\n\n\n\nMonday, July 21\n2:30 pm – 5:30 pm\nSC20\n\n\nTuesday, July 22\n2:00 pm – 5:00 pm\nSC20\n\n\nWednesday, July 23\n2:00 pm – 5:30 pm\nSC20\n\n\nThursday, July 24\n2:00 pm – 5:30 pm\nSC20\n\n\nFriday, July 25\n9:00 am – 12:00 pm\nSC20"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section-2",
+    "href": "slides/00-Hello/00-Hello.html#section-2",
+    "title": "00-Hello",
+    "section": "",
+    "text": "What?\n\nknitr::include_graphics(\"img/project2.png\")\n\n\n\n\n\n\n\n\n\nWhere?\n\nknitr::include_graphics(\"img/project3.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section-3",
+    "href": "slides/00-Hello/00-Hello.html#section-3",
+    "title": "00-Hello",
+    "section": "",
+    "text": "knitr::include_graphics(\"img/gh.png\")\n\n\n\n\n\n\n\n\nhttps://github.com/\nIt is needed to create sharable html documents\nIt allows to share your code (and your projects) with others"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#install-git",
+    "href": "slides/00-Hello/00-Hello.html#install-git",
+    "title": "00-Hello",
+    "section": "Install Git",
+    "text": "Install Git\nGitHub desktop allows for an “inderect” connection between RStudio and GitHub\nGit allows for a direct connection between RStudio and GitHub\nJust follow the default installation\n\nIf it worked (you might have to close RStudio and restart your PC):\n\nknitr::include_graphics(\"img/check.png\")"
+  },
+  {
+    "objectID": "slides/00-Hello/00-Hello.html#section-4",
+    "href": "slides/00-Hello/00-Hello.html#section-4",
+    "title": "00-Hello",
+    "section": "",
+    "text": "To explore the potentials of integrating code chunks, analyses, and results in one unique document, we need to work with a real dataset:\n\nDownload dataset from the course website\n\nDataset details:\n\nanxiety: Anxiety score — higher scores indicate higher levels of anxiety\nflexibility: Cognitive flexibility score — higher scores indicate greater flexibility\nmindfulness: Whether the person practices mindfulness daily, no vs. yes\nactivity: Type of sport activity practiced, pilates, altro, yoga"
+  }
+]

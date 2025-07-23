@@ -1,8 +1,149 @@
 ---
-title: "ARCA summer school on quarto"
+title: "Reporting using quarto"
+subtitle: "Reproducibility has never been easier"
+institute: "ARCA initiative: Unlocking Psychological Expertise for Academic and Business Success"
+author: "Ottavia M. Epifania"
+format: 
+  html:
+    theme: 
+     light: minty
+     dark: darkly
+    self-contained: true
+    toc: true
+    toc-location: left
+execute: 
+  echo: false
+logo: "slides/00-Hello/img/freepalestine.jpg"
 ---
 
-Mettere l'abstract
+# The course
+
+Reproducible reports integrate the code used for data analysis with the document that presents the findings, this enabling a continuous flow between the analytical process and its interpretation.
+
+While `R`Markdown undoubtedly opened the way to this process, `quarto` represents the next generation, as it is even easier to use than `R`Markdown and includes new features, making the reporting process more accessible. 
+
+This course provides an introduction to `quarto` and its basic features, along with a presentation on how to exploit it functionalities to create polished, professional outputs with embedded code chunks.
+
+Some of the topics covered within this seminar are:
+
+- Executable code chunks 
+- Tables & charts
+- Reports and papers
+- Presentations & so much more
 
 
-Se per caso metto i pdf (non penso) mettere i link ai pdf
+## Course materials
+
+All course materials are freely available on this website: 
+
+- [00-Hello](slides/00-Hello/00-Hello.html) Let's get all set [download source](slides/00-Hello/00-Hello.qmd)
+
+- [01-Baby steps](slides/01-Baby-steps/01-Baby-steps.html) Formatting with markdwon, integration with github pages & layout [download source](slides/01-Baby-steps/01-Baby-steps.qmd)
+
+- [02-Code chunks](slides/02-Code-chunk/02-Code-chunk.html) How to control the executable code [download source](slides/02-Code-chunk/02-Code-chunk.qmd)
+
+<!-- - [03-Presentations](slides/03-Presentation/03-Presentation.html) Interactive presentations [download source](slides/03-Presentation/03-Presentation.qmd) -->
+
+- [04-PDF](slides/04-PDF/04-PDF.pdf) with LaTeX [download source](slides/04-PDF/04-PDF.qmd)
+
+
+Here you can download the [dataset](data/dataset.csv) that we are going to use throughout the course, while [here](my-first-quarto-document.qmd) the file for checking whether everything works. 
+
+The source GitHub repository is available [here](https://github.com/OttaviaE/quarto-school).
+
+## Other files 
+
+* Document example [download .qmd](example-files/document.qmd)
+* HTML presentation example [download .qmd](example-files/presentation-html.qmd)
+* PDF presentation example [download .qmd](example-files/presentation-pdf.qmd)
+* Basic theme [download .scss](slides/00-Hello/mytheme.scss)
+* Bibliography (it is needed for compiling the example document) [dowload .bib](example-files/references.bib)
+
+# School Information
+
+## Locations
+
+Lectures will be at the Department of Statistical Sciences in via Cesare Battisti 241 Padova, ([https://maps.app.goo.gl/JMCthS2eZqWJEnmx8](https://maps.app.goo.gl/JMCthS2eZqWJEnmx8)), in **room SC20**.
+
+```{r}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap tiles
+  setView(lng = 11.885365425918087, lat = 45.40464995544754, zoom = 13) %>%
+  addMarkers(lng = 11.885365425918087, lat = 45.40464995544754, popup = "Department of Statistics")
+```
+
+Lunch will be served at the University Mensa RistorEsu Nord Piovego in Viale Giuseppe Colombo 1, Padova [https://maps.app.goo.gl/Y8ta2wHzbsdn2cMF8](https://maps.app.goo.gl/Y8ta2wHzbsdn2cMF8)
+
+```{r}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap tiles
+  setView(lng =  11.890467829858775, 
+          lat = 45.41117121174326, zoom = 13) %>%
+  addMarkers(lng =  11.890467829858775, 
+             lat = 45.41117121174326, popup = "RistorEsu Nord Piovego")
+
+```
+
+## Time schedule 
+
+
+**THERE HAS BEEN A CHANGE IN THE PROGRAM ON FRIDAY, 25^TH^**
+
+On Friday 25^th^, the quarto lesson will be in the morning session, while the R lesson will be in the afternoon session
+
+### MONDAY, JULY 21
+
+9:00 am - 9:30 am: check in
+9:30 am - 12:30 pm: Dr. Angela Andreella
+
+*Lunch break* 12:30 pm - 2:30 pm at RistorEsu Nord Piovego
+
+
+2:30 pm - 5:30 pm: Dr. Ottavia M. Epifania
+
+### TUESDAY, JULY 22
+
+
+9:00 am - 12:30 pm: Dr. Angela Andreella
+
+*Lunch break 12:30 pm - 2:00 pm at RistorEsu Nord Piovego*
+
+2:00 pm - 5:00 pm: Dr. Ottavia M. Epifania
+
+**6:00 pm - 7:00 pm: Guided tour at Orto Botanico**
+
+### WEDNESDAY, JULY 23
+
+9:00 am - 12:30 pm: Dr. Angela Andreella
+
+*Lunch break 12:30 pm - 2:00 pm at RistorEsu Nord Piovego*
+
+2:00 pm - 5:30 pm: Dr. Ottavia M. Epifania
+
+**Social Dinner 8:00 pm at Ristorante “Agli Eremitani”**
+
+### THURSDAY, JULY 24
+
+9:00 am - 12:30 pm: Dr. Angela Andreella
+
+*Lunch break
+12:30 pm - 2:00 pm at RistorEsu Nord Piovego*
+
+2:00 pm - 5:30 pm: Dr. Ottavia M. Epifania
+
+### FRIDAY, JULY 25 Changed schedule
+
+9:00 am - 12:00 pm:  Dr. Ottavia M. Epifania 
+
+*Lunch break 12:00 pm -1:30 pm at RistorEsu Nord Piovego*
+
+1:30 pm - 5:00 pm: Dr. Angela Andreella
+
+
+## Further activities
+
+Visit to the [Botanical Garden](https://maps.app.goo.gl/X7nWgS3yWuARsKfo9) on Tuesday night, 6:00pm-7:00pm
+
+Social dinner on Wednesday night at [Ristorante Agli Eremitani](https://maps.app.goo.gl/NzPXL1UWybYPZRre6), 8:00pm

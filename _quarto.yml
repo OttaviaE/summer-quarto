@@ -1,17 +1,21 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "summer-quarto"
+  title: "Summer Quarto"
+  site-url: https://ottaviae.github.io/summer-quarto/
   navbar:
+    background: primary
+    search: true
     left:
-      - href: index.qmd
-        text: Course Materials
-      - slides/00-Hello/00-Hello.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Slides"
+        href: slide.qmd
 
 format:
   html:
-    theme: lux
     css: styles.css
     toc: true
 
