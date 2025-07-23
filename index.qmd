@@ -36,7 +36,7 @@ Some of the topics covered within this seminar are:
 
 All course materials are freely available on this website: 
 
-- [00-Hello](slides/00-Hello/00-Hello.html) Let's get all set [download source](slides/00-Hello/00-Hello.qmd)
+- [00-Hello](slides/00-Hello/00-Hello.qmd) Let's get all set [download source](slides/00-Hello/00-Hello.qmd)
 
 - [01-Baby steps](slides/01-Baby-steps/01-Baby-steps.html) Formatting with markdwon, integration with github pages & layout [download source](slides/01-Baby-steps/01-Baby-steps.qmd)
 
